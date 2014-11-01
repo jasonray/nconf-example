@@ -1,0 +1,18 @@
+{
+  "name": "nconf-example",
+  "version": "0.0.0",
+  "description": "nconf-example =============",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jasonray/nconf-example.git"
+  },
+  "author": "jason ray <jason@jayray.net> (https://github.com/jasonray)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/jasonray/nconf-example/issues"
+  }
+}
