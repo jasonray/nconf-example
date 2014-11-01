@@ -7,4 +7,5 @@ exports.readproperty = function(test) {
     });
 
     test.equal(nconf.get('timeout'), 60);
+    test.done();
 }
