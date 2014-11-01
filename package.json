@@ -14,5 +14,8 @@
   "license": "BSD-2-Clause",
   "bugs": {
     "url": "https://github.com/jasonray/nconf-example/issues"
+  },
+  "dependencies": {
+    "nconf": "~0.6.9"
   }
 }
