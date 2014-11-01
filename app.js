@@ -1,12 +1,5 @@
-var nconf = require('nconf');
+var config = require('./config');
 
-nconf
-    .argv()
-    .env()
-    .file({
-        file: 'config.json'
-    });
-
-console.log('k: ', nconf.get('k'));
-console.log('database: ', nconf.get('database'));
-console.log('database.host: ', nconf.get('database').host);
+console.log('k: ', config.get('k'));
+console.log('database: ', config.get('database'));
+console.log('database.host: ', config.get('database').host);
